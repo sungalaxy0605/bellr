@@ -1,0 +1,6 @@
+node_modules
+.next
+.env
+server.bundle.js
+bellr.js
+debug.log

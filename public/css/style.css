@@ -1,0 +1,60 @@
+.Polaris-DataTable__Cell {
+  vertical-align: middle;
+}
+.Polaris-DataTable__Cell button {
+  padding: 0.8rem;
+  min-width: 3.2rem;
+  min-height: 3.2rem;
+}
+button .Polaris-Icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.Polaris-DataTable__Cell > .Polaris-Icon {
+  margin: 0.6rem 1rem;
+}
+.Polaris-DataTable__Cell > .Polaris-Icon svg {
+  fill: #637381;
+}
+.switch-container {
+  margin-top: 0.6rem;
+}
+.description-container {
+  white-space: normal;
+}
+.settings-container .description-container {
+  margin-bottom: 10px;
+}
+.settings-container .Polaris-TextField {
+  width: 150px;
+}
+.subscription-plan {
+  min-height: 276px;
+  padding: 2rem;
+}
+.subscription-plan h3 {
+  text-align: center;
+}
+.subscription-plan ul {
+  min-height: 140px;
+  margin-top: 1.6rem;
+}
+.subscription-plan ul li {
+  display: flex;
+}
+.subscription-plan ul li svg {
+  fill: #5c6ac4;
+}
+.subscription-plan ul li p {
+  margin-left: .4rem;
+  flex: 1 1;
+}
+.subscription-plan button {
+  display: block;
+  margin: 2rem auto 0;
+}
+.badge-wrapper {
+  display: block;
+  text-align: center;
+  margin: 2.5rem 0 0;
+}

@@ -1,0 +1,65 @@
+{
+  "name": "app_name",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shopify app description",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "cross-env NODE_ENV=production webpack --config ./webpack.config.js --profile & next build",
+    "start": "cross-env NODE_ENV=production node bellr.js"
+  },
+  "keywords": [
+    "shopify",
+    "app"
+  ],
+  "author": "Olga Potapenko",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^9.4.0",
+    "@shopify/app-bridge": "^1.26.2",
+    "@shopify/app-bridge-react": "^1.26.2",
+    "@shopify/koa-shopify-auth": "^3.1.66",
+    "@shopify/koa-shopify-graphql-proxy": "^4.0.1",
+    "@shopify/koa-shopify-webhooks": "^2.5.0",
+    "@shopify/polaris": "^4.27.0",
+    "@shopify/polaris-icons": "^3.12.0",
+    "@slack/webhook": "^5.0.3",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.9",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.4.0",
+    "koa-session": "^6.0.0",
+    "koa-static": "^5.0.0",
+    "module-alias": "^2.2.2",
+    "moment": "^2.28.0",
+    "mysql": "^2.18.1",
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.13.1",
+    "react-switch": "^5.0.1",
+    "request": "^2.88.2",
+    "shopify-api-node": "^3.4.4"
+  },
+  "_moduleAliases": {
+    "@libs": "app/libs",
+    "@routes": "app/routes",
+    "@models": "app/models"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "path": "^0.12.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
