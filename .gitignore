@@ -4,3 +4,4 @@ node_modules
 server.bundle.js
 bellr.js
 debug.log
+README.md
